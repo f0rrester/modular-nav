@@ -5,20 +5,20 @@
 @viewport { width: device-width; scale: 1; }
 
 html {
-box-sizing: border-box;
--moz-text-size-adjust: 100%;
--ms-text-size-adjust: 100%;
--webkit-text-size-adjust: 100%;
-text-size-adjust: 100%;
-font-family: sans-serif;
+  box-sizing: border-box;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  font-family: sans-serif;
 }
 
 *, *::before, *::after {
-box-sizing: inherit;
+  box-sizing: inherit;
 }
 
 body {
-  margin-left: 0;
+  margin: 0;
   padding: 0;
 }
 
@@ -41,7 +41,6 @@ a {
 a:hover {
   background-color: #0074d9;
   color: #fff;
-
 }
 
 .current {
@@ -58,4 +57,5 @@ a:hover {
   nav {
     text-align: right;
   }
+
 }
