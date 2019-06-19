@@ -40,9 +40,23 @@ a {
 }
 
 a:hover {
+  background-color: #0074d9;
+  color: #fff;
 
 }
 
 .current {
+  background-color: #0074d9;
+  color: #fff;
+}
 
+@media only screen and (min-width: 38em) {
+
+  div {
+    text-align: left;
+  }
+
+  nav {
+    text-align: right;
+  }
 }
